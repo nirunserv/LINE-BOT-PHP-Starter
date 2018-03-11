@@ -1,5 +1,5 @@
 <?
-$access_token = '2wqcBb1ucboUcpT1nyzF/Y/U9Ab/rg/1jYcPpxyg5PH8sCOvU3oJ3XfeOCjuXzFdOCmFw0q8dR0SLZ275uNoDrbynSISs787YTBTQCTcvqQRUef8NJWRiFjEVSyRsCcT+yA7oiJlJhuzqqWMgVoR6gdB04t89/1O/w1cDnyilFU=';// Get POST body content
+$access_token = 'xxxxx';// Get POST body content
 $content = file_get_contents('php://input');// Parse JSON
 $events = json_decode($content, true);// Validate parsed JSON data 
 if (!is_null($events['events'])) {	// Loop through each event	
